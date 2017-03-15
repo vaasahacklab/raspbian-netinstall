@@ -1,0 +1,14 @@
+packages=bash-completion,raspi-copies-and-fills,raspi-config,sudo,locales,tzdata,nano
+release=jessie
+username=<<YOURNAME>>
+userpw=<<YOURPASS>>
+user_is_admin=1
+disable_root=1
+bootsize=+256M
+bootoffset=8192
+timeserver=10.10.0.1
+timezone=Europe/Helsinki
+locales=en_US.UTF-8 fi_FI.UTF-8
+system_default_locale=en_US.UTF-8
+rootfstype=f2fs
+gpu_mem=64
